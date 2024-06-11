@@ -1,0 +1,113 @@
+*{
+    font-family: inter;
+    margin: 0 auto;
+}
+
+#topo{
+    background-color: #303030;
+    padding: 130px 0;
+}
+
+.box{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#titulo-topo{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#subtitulo-topo{
+    font-size: 28px;
+    color: white;
+}
+
+.caracteristicas{
+ background-color: #F9F9F9;
+ padding: 80px 0;
+ margin-bottom:80px;
+}
+
+.features{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   
+    
+}
+
+.features p{
+    color: black;
+    font-size: 22px;
+}
+
+.feat-numbers{
+    color: #303030;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#showcase{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#left{
+    color: black;
+    margin-right:35px;
+}
+
+#left h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#left p{
+    font-size: 24px;
+}
+
+.contact{
+    background-color: #303030;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h3{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.texto{
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin: 20px 0;
+}
+
+.botao-form{
+    background-color: #C07212;
+    color: white;
+    width: 200px;
+    padding: 15px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    font-size: 16px;
+
+}
+
+.botao-form:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 5px 5px 20px #000000;
+}
